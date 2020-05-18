@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kosti</string>
+    <string name="button3">Сыграть ещё</string>
+    <string name="win_text">Ты победил, поздравляю!</string>
+    <string name="button2">Возьми реванш</string>
+    <string name="loose_text">Ты проиграл, не расстраивайся - попробуй ещё раз</string>
+    <string name="your_points_text">Твои очки:</string>
+    <string name="robot_points_text">Очки робота:</string>
+    <string name="kosti_text">Кости</string>
+    <string name="button">Брось кости</string>
+    <string name="robot_points">0</string>
+    <string name="your_points_number">0</string>
+</resources>

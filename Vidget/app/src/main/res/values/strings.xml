@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Vidget</string>
+    <string name="textView">Текст Виджета</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="editText">Введите текст</string>
+    <string name="radioBlue">Синий</string>
+    <string name="radioGreen">Зеленый</string>
+    <string name="radioPink">Розовый</string>
+    <string name="radioLightBlue">Голубой</string>
+    <string name="button">Сохранить</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3C3C3C"
+        android:ems="10"
+        android:hint="@string/editText"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#C6C6C6"
+        android:autofillHints="" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radioBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#596AC8"
+            android:text="@string/radioBlue" />
+
+        <RadioButton
+            android:id="@+id/radioGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7EED4B"
+            android:text="@string/radioGreen" />
+
+        <RadioButton
+            android:id="@+id/radioPink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EF83C0"
+            android:text="@string/radioPink" />
+
+        <RadioButton
+            android:id="@+id/radioLightBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00BCD4"
+            android:text="@string/radioLightBlue" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C3C3C"
+            android:onClick="onClick"
+            android:text="@string/button"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </RadioGroup>
+</LinearLayout>
